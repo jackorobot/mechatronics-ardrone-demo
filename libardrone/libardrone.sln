@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libardrone", "libardrone\libardrone.vcxproj", "{9578C70C-C375-4129-A2FA-B54A9DB906CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libardrone-demo", "libardrone-demo\libardrone-demo.vcxproj", "{646CEBED-62A0-4529-8C31-D8A1B948D23F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9578C70C-C375-4129-A2FA-B54A9DB906CB} = {9578C70C-C375-4129-A2FA-B54A9DB906CB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9578C70C-C375-4129-A2FA-B54A9DB906CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9578C70C-C375-4129-A2FA-B54A9DB906CB}.Debug|Win32.Build.0 = Debug|Win32
+		{9578C70C-C375-4129-A2FA-B54A9DB906CB}.Release|Win32.ActiveCfg = Release|Win32
+		{9578C70C-C375-4129-A2FA-B54A9DB906CB}.Release|Win32.Build.0 = Release|Win32
+		{646CEBED-62A0-4529-8C31-D8A1B948D23F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{646CEBED-62A0-4529-8C31-D8A1B948D23F}.Debug|Win32.Build.0 = Debug|Win32
+		{646CEBED-62A0-4529-8C31-D8A1B948D23F}.Release|Win32.ActiveCfg = Release|Win32
+		{646CEBED-62A0-4529-8C31-D8A1B948D23F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
