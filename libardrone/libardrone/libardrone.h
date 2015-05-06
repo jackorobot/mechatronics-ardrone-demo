@@ -16,21 +16,20 @@ namespace libardrone{
 		~ARDrone();
 
 		typedef std::map<std::string, int> State;
-		struct Demo{
-			unsigned int ctrl_state;
-			unsigned int vbat_flying;
-
-			float theta; //pitch
-			float phi; //roll
-			float psi; //yaw
+		struct Demo {
+			int ctrl_state;
+			int vbat_flying;
+			float theta;
+			float phi;
+			float psi;
 
 			int altitude;
 
 			float vx;
 			float vy;
 			float vz;
-
-			unsigned int num_frames;
+			
+			int num_frames;
 		};
 		struct Nav {
 			int header;

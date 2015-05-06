@@ -14,7 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	do{
 		drone.takeOff();
 	} while (drone.navdata.drone_state["fly_mask"] != 1);
-	while (GetAsyncKeyState(VK_ESCAPE)){
+	while (!GetAsyncKeyState(VK_ESCAPE)){
 		drone.hover();
 	}
 	do{
